@@ -3,5 +3,15 @@
     <style name="Base.Theme.NewTech" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="colorPrimary">@color/main_yelow</item>
+        <item name="colorPrimaryVariant">@color/main_yelow</item>
+        <item name="colorSecondary">@color/main_yelow</item>
+        <item name="colorSecondaryVariant">@color/main_yelow</item>
+        <item name="android:navigationBarColor">@color/main_yelow</item>
+        <item name="android:navigationBarDividerColor">@color/main_yelow</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <item name="android:windowLightStatusBar" tools:targetApi="q">true</item>
     </style>
 </resources>
